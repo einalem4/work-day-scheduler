@@ -1,4 +1,4 @@
-# Workday Scheduler
+# Work Day Scheduler
 
 ## Purpose
 Add important events to a daily planner so I can manage my time effectively
