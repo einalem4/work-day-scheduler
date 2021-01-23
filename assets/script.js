@@ -6,7 +6,6 @@ $("#currentDay").text(currentDay);
 //current hour
 var currentTime = parseInt(moment().format("HH",));
 
-
 // loop through time and set colors according to past, present, future time
 $(document.body).ready(function () {
     $('textarea').each(function (i) {
@@ -20,7 +19,6 @@ $(document.body).ready(function () {
             $("#" + thisID).addClass("textarea bg-success");
         }
     })
-
 
     //get saved items to localstorage
     function savedText() {
